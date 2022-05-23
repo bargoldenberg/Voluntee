@@ -8,13 +8,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Travel UI',
+      title: 'Voluntee',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: const Color(0xFF3EBACE),
-        scaffoldBackgroundColor: const Color(0xFFF3F5F7),
+        primaryColor: const Color(0xFFFFFFFF),
+        scaffoldBackgroundColor: const Color(0xFFFFFFFF),
         colorScheme: ColorScheme.fromSwatch()
-            .copyWith(secondary: const Color(0xFFD8ECF1)),
+            .copyWith(secondary: const Color(0xFF999999)),
       ),
       home: HomeScreen(),
     );

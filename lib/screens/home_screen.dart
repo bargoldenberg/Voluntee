@@ -17,10 +17,10 @@ class _HomeScreenState extends State<HomeScreen> {
   int _currentTab = 0;
 
   final List<IconData> _icons = [
-    FontAwesomeIcons.plane,
-    FontAwesomeIcons.bed,
-    FontAwesomeIcons.personWalking,
-    FontAwesomeIcons.personBiking,
+    FontAwesomeIcons.locationPin,
+    FontAwesomeIcons.clock,
+    FontAwesomeIcons.folder,
+    FontAwesomeIcons.handHoldingHeart,
   ];
 
   Widget _buildIcon(int index) {
@@ -37,7 +37,7 @@ class _HomeScreenState extends State<HomeScreen> {
         decoration: BoxDecoration(
           color: _selectedIndex == index
               ? Theme.of(context).colorScheme.secondary
-              : Color(0xFFE7EBEE),
+              : Color(0xFFFF521F),
           borderRadius: BorderRadius.circular(30.0),
         ),
         child: Icon(
@@ -45,7 +45,7 @@ class _HomeScreenState extends State<HomeScreen> {
           size: 25.0,
           color: _selectedIndex == index
               ? Theme.of(context).primaryColor
-              : Color(0xFFB4C1C4),
+              : Color(0xFFFFFFFF),
         ),
       ),
     );
@@ -63,6 +63,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: Text(
                   'Where would you like to Voluntee?',
                   style: TextStyle(fontSize: 30.0, fontWeight: FontWeight.bold),
+
                 ),
               ),
               SizedBox(height: 20.0),

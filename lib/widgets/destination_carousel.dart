@@ -16,7 +16,7 @@ class DestinationCarousel extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
               const Text(
-                'Top Destinations',
+                'By Location',
                 style: TextStyle(
                   fontSize: 22.0,
                   fontWeight: FontWeight.bold,
@@ -66,7 +66,7 @@ class DestinationCarousel extends StatelessWidget {
                               height: 120.0,
                               width: 200.0,
                               decoration: BoxDecoration(
-                                color: Colors.white,
+                                color: Color(0xFFFEE0D7),
                                 borderRadius: BorderRadius.circular(10.0),
                               ),
                               child: Padding(
@@ -87,7 +87,7 @@ class DestinationCarousel extends StatelessWidget {
                                       Text(
                                         destination.description,
                                         style: const TextStyle(
-                                          color: Colors.grey,
+                                          color: Colors.black,
                                         ),
                                       ),
                                     ]),

@@ -46,8 +46,8 @@ List<Activity> activities = [
 List<Destination> destinations = [
   Destination(
     imageUrl: 'assets/images/ezer.png',
-    city: 'Venice',
-    country: 'Italy',
+    city: 'Ezer',
+    country: 'Israel',
     description: 'Visit Venice for an amazing and unforgettable adventure.',
     activities: activities,
   ),
@@ -61,7 +61,7 @@ List<Destination> destinations = [
   Destination(
     imageUrl: 'assets/images/variety.png',
     city: 'New Delhi',
-    country: 'India',
+    country: 'Israel',
     description: 'Visit New Delhi for an amazing and unforgettable adventure.',
     activities: activities,
   ),

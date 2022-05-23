@@ -61,7 +61,7 @@ class _DestinationScreenState extends State<DestinationScreen> {
                   children: <Widget>[
                     IconButton(
                         iconSize: 30.0,
-                        color: Colors.black,
+                        color: Colors.white,
                         icon: const Icon(Icons.arrow_back),
                         onPressed: () => Navigator.pop(context)),
                     Row(
@@ -90,7 +90,7 @@ class _DestinationScreenState extends State<DestinationScreen> {
                     children: <Widget>[
                       Text(widget.destination.city,
                           style: const TextStyle(
-                              color: Colors.white,
+                              color: Colors.grey,
                               fontSize: 35.0,
                               fontWeight: FontWeight.w600,
                               letterSpacing: 1.2)),
@@ -99,12 +99,12 @@ class _DestinationScreenState extends State<DestinationScreen> {
                           const Icon(
                             FontAwesomeIcons.locationArrow,
                             size: 15.0,
-                            color: Colors.white70,
+                            color: Colors.grey,
                           ),
                           const SizedBox(width: 5.0),
                           Text(widget.destination.country,
                               style: const TextStyle(
-                                color: Colors.white70,
+                                color: Colors.grey,
                                 fontSize: 20.0,
                               )),
                         ],
@@ -115,7 +115,7 @@ class _DestinationScreenState extends State<DestinationScreen> {
                   right: 20.0,
                   bottom: 20.0,
                   child: Icon(Icons.location_on,
-                      color: Colors.white70, size: 25.0))
+                      color: Colors.white10, size: 25.0))
             ],
           ),
           Expanded(
@@ -178,7 +178,7 @@ class _DestinationScreenState extends State<DestinationScreen> {
                             ),
                             Text(
                               activity.type,
-                              style: const TextStyle(color: Colors.grey),
+                              style: const TextStyle(color: Colors.white),
                             ),
                             _buildRatingStars(activity.rating),
                             const SizedBox(height: 10.0),
